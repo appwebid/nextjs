@@ -1,9 +1,9 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "template-nextjs",
+  "description": "Template Kesato & Co",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "author": "Kesato & Co <dev@kesato.com> (@kesato)",
   "license": "MIT",
   "keywords": [
     "nextjs",
