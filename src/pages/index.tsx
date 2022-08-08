@@ -1,10 +1,5 @@
-import Link from 'next/link';
-
-const Home = () => (
-  <>
-    Here is a list of our template
-    <Link href="/template1">Template 1</Link>
-  </>
-);
+const Home = () => {
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+};
 
 export default Home;
