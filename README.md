@@ -7,7 +7,8 @@
 
 ## Features
 
-- ⚡️ Next.js 12
+- ⚡️ PNPM
+- ⚡️ Next.js 13 App Dir
 - ⚛️ React 18
 - ⛑ TypeScript
 - 📏 ESLint — To find and fix problems in your code
