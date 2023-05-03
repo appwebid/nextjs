@@ -6,6 +6,16 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    domains: process?.env?.NEXT_PUBLIC_IMAGES_DOMAIN?.split(` `) || [],
+    minimumCacheTTL: 7,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.cdninstagram.com',
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
