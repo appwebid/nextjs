@@ -3,9 +3,6 @@ const nextConfig = {
   output: process.env.NODE_ENV == 'production' ? 'standalone' : undefined,
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    appDir: true,
-  },
   images: {
     domains: process?.env?.NEXT_PUBLIC_IMAGES_DOMAIN?.split(` `) || [],
     minimumCacheTTL: 7,
